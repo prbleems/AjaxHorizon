@@ -17,8 +17,8 @@ const MessageInput = () => {
 				<div className='flex-1'>
 					<Input
 						type='text'
-						placeholder='Type a message'
-						className='py-2 text-sm w-full rounded-lg shadow-sm bg-gray-tertiary focus-visible:ring-transparent'
+						placeholder='Escribe un mensaje'
+						className='py-2 text-sm w-full rounded-lg shadow-inner bg-gray-tertiary focus-visible:ring-transparent'
 						value={msgText}
 						onChange={(e) => setMsgText(e.target.value)}
 					/>

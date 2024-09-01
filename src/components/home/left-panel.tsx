@@ -25,12 +25,12 @@ const LeftPanel = () => {
 					<div className='relative h-10 mx-3 flex-1'>
 						<Search
 							className='absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500 z-10'
-							size={18}
+							size={20}
 						/>
 						<Input
 							type='text'
 							placeholder='Buscar o iniciar un nuevo chat'
-							className='pl-10 py-2 text-sm w-full rounded shadow-sm bg-gray-primary focus-visible:ring-transparent'
+							className='pl-12 py-2 text-base w-full rounded-lg shadow-sm bg-gray-primary focus-visible:ring-transparent'
 						/>
 					</div>
 					<ListFilter className='cursor-pointer' />
